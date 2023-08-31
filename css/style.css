@@ -215,13 +215,16 @@ b, strong {
   margin-top: 1rem;
 }
 
-
 .project h2 {
   margin-bottom: 1rem;
 }
 
 .project-info p {
   font-weight: 600;
+}
+
+.project img {
+  margin: 2rem; 
 }
 
 /* Footer */
@@ -440,7 +443,7 @@ b, strong {
   background:#D6D6D6;
   display:block;
   -webkit-backface-visibility: visible;
-  transition:opacity .2s ease;
+  transition: opacity .2s ease;
   border-radius: 30px 
 }
 
