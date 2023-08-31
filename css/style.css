@@ -400,6 +400,29 @@ b, strong {
   }
 }
 
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 50px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  margin: auto;
+  text-align: center;
+}
+
+.modal-image {
+  display: inline-block;
+}
+
 /**
  * Owl Carousel v2.3.4
  * Copyright 2013-2018 David Deutsch
@@ -517,7 +540,7 @@ b, strong {
 .owl-carousel .owl-item img {
   display: block;
   width: 800px;
-  height: 350px;
+  height: 300px;
 }
 .owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled {
   display: none;
@@ -574,11 +597,11 @@ b, strong {
   direction: rtl;
 }
 
-.owl-carousel.owl-rtl .owl-item {
+.owl-carousel.owl-rtl.owl-item {
   float: left;
 }
 
-.owl-carousel .animated {
+.owl-carousel.animated {
   animation-duration: 1s;
   animation-fill-mode: both;
 }
