@@ -224,7 +224,7 @@ b, strong {
 }
 
 .project img {
-  margin: 2rem; 
+  padding-top: 2rem; 
 }
 
 /* Footer */
@@ -381,6 +381,10 @@ b, strong {
     margin-top: 0;
   }
 
+  .about-text {
+    text-align: center;
+  }
+
   .full-screen {
     padding: 4rem 0;
   }
@@ -388,7 +392,17 @@ b, strong {
   .mobile-block {
     display: block;
   }
+
+  .contact-info {
+    flex-direction: column;
+  }
+
+  .social-links li {
+    display: inline-block;
+    vertical-align: top;
+  }
 }
+
 
 /**
  * Owl Carousel v2.3.4
@@ -443,7 +457,7 @@ b, strong {
   background:#D6D6D6;
   display:block;
   -webkit-backface-visibility: visible;
-  transition: opacity .2s ease;
+  transition:opacity .2s ease;
   border-radius: 30px 
 }
 
