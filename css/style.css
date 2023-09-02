@@ -315,11 +315,31 @@ b, strong {
     bottom: 50px;
   }
 }
-@media (max-width: 991px) {
+
+@media (min-width: 1270px) {
+  .fullscreen {
+    position: relative;
+    bottom: 50px;
+  }
+}
+
+@media (max-width: 992px) {
   .full-screen {
     padding-bottom: 4rem;
   }
 
+  @media all and (max-width: 600px ) {
+    .flex { display: flex; }
+    .img {
+      padding: 2rem;
+      transform: translateY(10rem);
+      width: 95vw
+    }
+    .bg-img {
+      display: none;
+    }
+  }
+  
   .color-mode {
     display: none;
   }
